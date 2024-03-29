@@ -1,0 +1,36 @@
+{
+    "name": "moh3n/laravel-media",
+    "description": "upload your media very easy",
+    "keywords": ["laravel" , "php" , "moh3nmusavi" , "laravel-media","laravel-media-uploader"],
+    "type" : "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moh3n\\LaravelMedia\\": "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4": {
+            "Moh3n\\LaravelMedia\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "moh3nmusavi",
+            "email": "moh3n.m2014@gmail.com",
+            "role" : "owner" ,
+            "homepage" : "https://github.com/moh3nmusavi"
+        }
+    ],
+    "config": {
+        "sort-packages" : true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.0",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
+    }
+}
