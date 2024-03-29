@@ -30,6 +30,13 @@
         "php" : "^8.0",
         "laravel/framework": "^9.0|^10.0"
     },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Moh3n\\LaravelMedia\\LaravelMediaServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "test" : "vendor/bin/phpunit"
     }
