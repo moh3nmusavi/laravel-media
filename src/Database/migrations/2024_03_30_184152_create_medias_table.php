@@ -19,6 +19,7 @@ return new class extends Migration
                 ->cascadeOnDelete();
             $table->string('filename');
             $table->text('path');
+            $table->json('files');
             $table->enum('type' , get_enum_values(MediaTypeEnum::cases()));
             $table->boolean('is_private');
             $table->timestamps();
