@@ -1,4 +1,6 @@
 <?php
+namespace Moh3n\LaravelMedia\Services;
+
 use \Illuminate\Http\UploadedFile ;
 class ImageService
 {
